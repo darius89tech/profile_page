@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+
+*{
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.brand{
+    font-size: xx-large;
+}
+main{
+    background-color: white;
+    min-height: 500px;
+    flex: 2;
+    align-self: flex-start;
+}
+aside{
+    min-height: 300px;
+    flex: 1;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+ul{
+    list-style: none;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+.profile_pic{
+    border-radius: 50%;
+    width: 75px;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.profile_card_header{
+    background-color: #17a2b8;
+    height: 100px;
+}
+.profile_card{
+    border: 2px solid #cccccc;
+    margin-bottom: 20px;
+}
+.profile_card_body{
+    padding: 20px;
+    padding-top: 25px;
+}
+.card{
+    border: 2px solid #cccccc;
+    margin-bottom: 20px;
+}
+.card_header{
+    background-color: #333333;
+    color: white;
+    padding: 10px 20px;
+}
+.card_body{
+    padding: 20px;
+}
+.muted{
+    color: #767676;
+}
+.mb{
+    margin-bottom: 10px;
+}
+.justify_start{
+    justify-content: flex-start;
+}
+.circle{
+    background-color: #cccccc;
+    color: black;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+.avatar{
+    width: 50px;
+    border-radius: 50%;
+}
+.actions{
+    font-size: 40px;
+}
+.oval{
+    background-color: #cccccc;
+    color: black;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+.btn{
+    background-color: #17a2b8;
+    color: white;
+    padding: 10px 20px; 
+}
